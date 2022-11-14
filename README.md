@@ -17,7 +17,6 @@ Step I want to complete:
 2. Get the program to print the letters when called upon
     1. 
     2. print row by row
-    3. function to input letter
     3. function to input word
 3. Get the program to print a word when entered
 4. Add all the additional letters
