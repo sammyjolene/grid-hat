@@ -15,6 +15,8 @@ Here is the in progress photo:
 Step I want to complete: 
 1. Add a couple letters to begin programming
 2. Get the program to print the letters when called upon
+    1.  print row by row
+    2. print next to each other
 3. Get the program to print a word when entered
 4. Add all the additional letters
 5. Set up rules to check on the size of the word and if it will fit on the hat
