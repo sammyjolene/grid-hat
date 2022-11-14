@@ -26,24 +26,22 @@ def input_word(word):
   grid = []
   row = []
   idx = 0
-  print(letter_dict)
-  row_num = 1
 
 #Need to insert loop that goes through each value list for the length so that there are multiple rows
+  for temp in range(8):
+    for items in letter_dict:
+      row.append(alphabet[letter_dict[dict_count]][idx])
+      dict_count += 1
 
-  for items in letter_dict:
-    row.append(alphabet[letter_dict[dict_count]][idx])
-    dict_count += 1
+    grid.append(str(row))
+    dict_count = 1
+    idx += 1
+    row.clear()
+  
+  print(*grid, sep="\n")  
 
-  grid.append(str(row))
-  print(grid)  
 
-
-#THIS is where I stopped. I'm at the same place at the beginning print of SAM except that now comes from input. 
-# next step is to figure out how to make them print left to right. Each is currently printing the reference 
-# string from the dictionary alphabet. I might be able to reference the string by index for each key on a loop. 
+#Next step is how to unpack a nested list to print without brackets
 
 input_word("sam")
 #to print in new lines:   *s_row, sep = "\n"
-
-#How do I turn the dictionary value of 's' into my variable of s which stores the rows for creating that letter. - my solution was to use two dictionaries where one's value references the others key and that value is the string I want to print
