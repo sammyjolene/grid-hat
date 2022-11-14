@@ -15,8 +15,9 @@ Here is the in progress photo:
 Step I want to complete: 
 1. Add a couple letters to begin programming
 2. Get the program to print the letters when called upon
-    1. print row by row
-    2. function to input letter
+    1. 
+    2. print row by row
+    3. function to input letter
     3. function to input word
 3. Get the program to print a word when entered
 4. Add all the additional letters
