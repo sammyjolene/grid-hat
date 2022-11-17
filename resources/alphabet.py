@@ -1,4 +1,5 @@
-a = [' xxxx ', 'xxxxxx', 'xx  xx', 'xx  xx', 'xxxxxx', 'xxxxxx', 'xx  xx', 'xx  xx']
+a = [' xxxx , xxxxxx, xx  xx, xx  xx, xxxxxx, xxxxxx, xx  xx, xx  xx']
+#a = [' xxxx ', 'xxxxxx', 'xx  xx', 'xx  xx', 'xxxxxx', 'xxxxxx', 'xx  xx', 'xx  xx']
 b = []
 c = []
 d = []

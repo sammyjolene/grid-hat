@@ -37,8 +37,10 @@ def input_word(word):
     dict_count = 1
     idx += 1
     row.clear()
-  
-  print(*grid, sep="\n")  
+  print(grid)
+  #print(*grid, sep="\n")  
+  for sublist in grid:
+    print(*sublist.split(","), sep = "")
 
 
 #Next step is how to unpack a nested list to print without brackets
