@@ -3,4 +3,4 @@
 data = ['1,2,3','a,b,c']
 print(*data, sep = "\n")
 for sublist in data:
-    print(*sublist.split(','), sep='')
+    print(*sublist.split(","), sep='')
